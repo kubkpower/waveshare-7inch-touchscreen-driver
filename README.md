@@ -6,7 +6,7 @@ Add an issue using python-uinput because it does not recognize absolute position
 ssh into your raspiberry
 
 ```
-git clone https://github.com/derekhe/waveshare-7inch-touchscreen-driver
+git clone https://github.com/kubkpower/waveshare-7inch-touchscreen-driver
 cd waveshare-7inch-touchscreen-driver
 chmod +x install.sh
 sudo apt-get update
