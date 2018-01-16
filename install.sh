@@ -7,7 +7,7 @@ check_ver_lte() {
 
 chmod +x *.sh *.py
 sudo patch -b /boot/config.txt 7inch.patch
-sudo apt-get install -y python3-pip libudev-dev
+sudo apt-get install -y python3-pip libudev-dev xdotool
 sudo pip3 install pyudev
 sudo pip3 install https://github.com/rshk/python-libxdo/tarball/master
 #if pip-3.2 can't be found, please use pip3
